@@ -46,7 +46,7 @@ class FechaHora:
 
         if auxDias > self.__nDiasXMes[self.__mes - 1]:
             indiceMes = self.__mes - 1
-            while auxDias >= self.__nDiasXMes[indiceMes]:
+            while auxDias > self.__nDiasXMes[indiceMes]:
                 print(auxDias, self.__nDiasXMes[indiceMes])
                 auxDias -= self.__nDiasXMes[indiceMes]
                 if indiceMes == 11:
